@@ -4,6 +4,7 @@
     --Rojo: #ab000d;
     --Gris: #e6e6e6;
     --GrisOscuro: #383838;
+    --Red: #;
 
     --Noto: 'Noto Sans', sans-serif;
     --Poppins: 'Poppins', sans-serif;
@@ -229,6 +230,10 @@ img {max-width: 100%;}
   margin: 15rem 10rem;
   box-shadow: 0px 0px 16px 6px rgba(150,150,150,0.61);
 }
+.container__seccion {
+  max-width: 60rem;
+  max-height: 60rem;
+}
 .image__container {
   height: 100%;
   width: 100%;
@@ -240,21 +245,84 @@ img {max-width: 100%;}
 .container__seccion__3 {
   background-color: rgb(48, 48, 48);
 }
-.title__last__logistcs {
+.title__last__logistics {
+  color: var(--Rojo);
   font-size: 3rem;
-  color: black;
   text-align: center;
 }
 .flex {
   display: flex;
 }
-.last__logistcs__img {
+.last__logistics__img {
   width: 6.5rem;
   height: 6.5rem;
   margin: auto 5rem;
 }
+.last__logistics__text h4 {
+  font-size: 2rem;
+  font-weight: bold;
+  margin: 1rem 5rem 1rem 0rem;
+}
+.last__logistics__text p {
+  font-size: 1.5rem;
+  font-weight: normal;
+  margin: 1rem 5rem 1rem 0rem;
+  color: rgb(91, 91, 91)
+}
+.container__seccion__3 h3 {
+  color: white;
+  font-size: 4.5rem;
+  margin: 1rem 5rem;
+}
+.container__seccion__3 p {
+  color: white;
+  font-size: 1.8rem;
+  margin: 2rem 5rem;
+  line-height: 3rem;
+}
+.button {
+  background-color: var(--Rojo);
+  color: white;
+  margin: 2rem 5rem;
+  padding: .5rem 3rem;
+  border-radius: 1rem;
+  font-weight: 700;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 1.8rem;
+  border:none;
+}
 
+/*  SUBMENU */
+.submenu {
+  background-color: var(--Amarillo);
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 3rem;
+}
+.logo__footer {
+  width: 15rem;
+}
+.info__socialmedia, .contacto__footer, .nav__footer {
+  margin: 1.5rem 10rem;
+  text-align: left;
+}
+.nav__footer {
+  display: flex;
+  flex-direction: column;
+  line-height: 3rem;
+  max-width: 100%;
 
+}
+
+/*  COPYRIGHT */
+.copyright {
+  background-color: #424242;
+  color: white;
+  font-size: 1.8rem;
+  text-align: center;
+  padding: 1.5rem 1.5rem;
+}
 /* WHATSAPP BUTTON */
 .whatsapp {
   position:fixed;
