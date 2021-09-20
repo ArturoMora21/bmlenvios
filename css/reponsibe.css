@@ -1,11 +1,13 @@
 /* 480 Mobile */
 
   /* Utilidades */
+    /*
     @media (min-width: 481px) {
       .topnav {
         display: none;
       }
     }
+    */
 
 
 @media (max-width: 480px) {
@@ -47,7 +49,6 @@
   height: 8rem;
   }
   .topnav a:hover {
-  background-color: #ddd;
   color: black;
   }
   .active {
@@ -68,13 +69,10 @@
   .buttons {
     display: flex;
     flex-direction: column;
-    margin: 0rem 8rem;
+    margin: 0rem 2rem;
   }
   .button1 {
-    margin-top: .8rem;
     font-weight: 500;
-    margin: 1.5rem 5rem;
-    padding: .5rem 0rem;
   }
   .header__text {
     height: 40rem;
@@ -84,8 +82,7 @@
     text-align: center;
   }
   .map {
-    height: 16rem;
-    width: 30rem;
+    width: 90rem;
   }
   .advantages {
     display: block;
@@ -103,24 +100,168 @@
     padding-top: 1rem;
   }
   .container__seccion__3 h3 {
-    padding-top: 2rem;
+    padding-top: 1.5rem;
   }
   .container__seccion__3 p {
-    padding-bottom: 2rem;
+    padding-bottom: 1.5rem;
   }
   .container__seccion__3 {
-    height: 40rem;
+    height: 47rem;
   }
   .submenu {
     display: block;
   }
   .nav__footer {
-    margin-bottom: 0rem;
+    margin: 0rem 1rem !important;
     flex-direction: row;
     justify-content: space-between;
-    padding-bottom: 2rem;
+    padding: 0;
   }
 
 }
 
 /* 768px Tablet */
+
+@media (min-width: 769px) {
+  .topnav {
+    display: none;
+  }
+}
+
+@media (max-width: 768px) {
+  .logo {
+    display: none;
+  }
+  .logo__menu__mobile {
+    width: 18rem;
+  }
+  .burger {
+    width: 8rem;
+  }
+  .topnav {
+  overflow: hidden;
+  background-color: #333;
+  position: relative;
+  }
+  .topnav #myLinks {
+  display: none;
+  }
+  .topnav a {
+  color: var(--Gris);
+  padding: 1.2rem 1.6rem;
+  margin: auto;
+  text-decoration: none;
+  font-size: 1.7rem;
+  display: block;
+  }
+  .topnav a.icon {
+  display: block;
+  position: absolute;
+  right: 0rem;
+  top: 0rem;
+  max-width: 100%;
+  height: 8rem;
+  }
+  .topnav a:hover {
+  color: black;
+  }
+  .active {
+  background-color: var(--Amarillo);
+  color: white;
+  }
+  .socialmedia1 {
+    display: none;
+  }
+  .amarillo{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    .logo {
+      height: 7rem;
+    }
+    .navegation .navegation__link {
+      display: none;
+    }
+    .navegation {
+        display: flex;
+        gap: 2rem;
+        text-align: center;
+    }
+    .button1 {
+      margin: 2rem 2rem;
+      padding: .5rem 2rem;
+      font-size: 1.6rem;
+    }
+    .worldmap {
+      padding: 2rem 1rem;
+      width: 98%;
+    }
+    .map {
+      width: 17.2rem;
+    }
+    .advantages {
+      gap: 2rem;
+      margin: 5rem 2rem;
+    }
+    .advantages__sections__titles {
+      font-size: 2.5rem;
+    }
+    .advantages__sections__paragraph {
+      font-size: 1.4rem;
+      line-height: 1.7;
+    }
+    .services__grid {
+      gap: 1rem;
+      margin: .5rem 1rem;
+    }
+    .services__icon {
+      margin-top: 2rem;
+    }
+    .services__seccion__paragraph {
+      font-size: 1.5rem;
+      margin: 1rem 5rem 2rem 5rem;
+      line-height: 2.5rem;
+    }
+    .container__grid {
+      margin: 10rem 1rem;
+    }
+    .title__last__logistics {
+      font-size: 2rem;
+      margin: 1rem 2rem;
+    }
+    .last__logistics__img {
+      width: 4rem;
+      height: 4rem;
+      margin: auto 1.5rem;
+    }
+    .last__logistics__text h4 {
+      font-size: 1.5rem;
+      margin: 0;
+    }
+    .last__logistics__text p {
+      font-size: 1.3rem;
+      margin: .8rem 0rem .8rem 0rem;
+    }
+    .container__seccion__3 h3 {
+      font-size: 2.7rem;
+      margin: 2rem 2rem;
+    }
+    .container__seccion__3 p {
+      font-size: 1.4rem;
+      margin: 1rem 2rem;
+      line-height: 2.2rem;
+    }
+    .button {
+      font-size: 1.4rem;
+      margin: 1rem 2rem;
+      padding: .2rem 1.5rem;
+    }
+    .submenu {
+      gap: 1rem;
+    }
+    .info__socialmedia, .contacto__footer, .nav__footer {
+      margin: 1rem 3rem;
+      text-align: center;
+    }
+}
