@@ -9,6 +9,7 @@
     <link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="/css/reponsibe.css">
 </head>
 
 <body>
@@ -57,17 +58,22 @@
                         <a href="#" class="navegation__link">Mas</a>
 
                       </nav>
-                      <div class="icon__burger__menu">
-                        <img src="img/Iconos/menu-regular-132.png" alt="icono menu hamburgesa">
-                      </div>
-                      <div class="content__menu">
-                        <li>XxXxXxX</li>
-                        <li>XxXxXxX</li>
-                        <li>XxXxXxX</li>
-                        <li>XxXxXxX</li>
-                      </div>
 
                     </div> <!-- END YELLOW -->
+
+                    <div class="topnav">
+                      <a href="/" class="active">
+                        <img class="logo__menu__mobile" src="img/Logo-BML-Envios.png">
+                      </a>
+                      <div id="myLinks">
+                        <a href="servicios.html">Servicios</a>
+                        <a href="contactanos.html">Contacto</a>
+                        <a href="#">Mas</a>
+                      </div>
+                      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                        <img class="burger" src="img/Iconos/menu-regular-132.png">
+                      </a>
+                    </div>
 
                 </div> <!-- End Bar -->
 
@@ -283,6 +289,7 @@
   </footer>
 
   <script src="js/app.js"></script>
+  <script src="js/burger_menu.js"></script>
   <!-- <script src="js/whatsappButton.js"></script> -->
 </body>
 </html>

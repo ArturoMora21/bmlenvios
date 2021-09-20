@@ -1,0 +1,64 @@
+/* 480 Mobile */
+
+  /* Utilidades */
+    @media (min-width: 481px) {
+      .topnav {
+        display: none;
+      }
+    }
+
+@media (max-width: 480px) {
+  .navegation {
+    display: none;
+  }
+  .logo {
+    display: none;
+  }
+  .logo__menu__mobile {
+  width: 12rem;
+  margin: 0;
+  }
+  .burger {
+  width: 4rem;
+  }
+  .topnav {
+  overflow: hidden;
+  background-color: #333;
+  position: relative;
+  }
+
+  .topnav #myLinks {
+  display: none;
+  }
+
+  .topnav a {
+  color: var(--Gris);
+  padding: 1.2rem 1.6rem;
+  margin: auto;
+  text-decoration: none;
+  font-size: 1.7rem;
+  display: block;
+  }
+
+  .topnav a.icon {
+  display: block;
+  position: absolute;
+  right: 0rem;
+  top: 0rem;
+  max-width: 100%;
+  height: 8rem;
+
+  }
+
+  .topnav a:hover {
+  background-color: #ddd;
+  color: black;
+  }
+
+  .active {
+  background-color: var(--Amarillo);
+  color: white;
+  }
+}
+
+/* 768px Tablet */

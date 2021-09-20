@@ -99,27 +99,8 @@ img {max-width: 100%;}
     width: 90%;
     margin: 0 auto;
 }
-@media (max-width: 480px) {
-    .amarillo {
-      display: grid;
-      grid-template-columns: repeat(2, 1fr);
-      align-items: flex-end;
-    }
-}
-@media (max-width: 480px) {
-    .icon__burger__menu {
-      width: 6rem;
-      align-content: center;
-    }
-}
-@media (min-width: 481px) {
-    .icon__burger__menu {
-      display: none;
-    }
-    .content__menu {
-      display: none;
-    }
-}
+
+
 .logo {
   height: 8rem;
 }
