@@ -32,6 +32,10 @@
   .topnav #myLinks {
   display: none;
   }
+  #myLinks {
+    text-align: center;
+    margin: 0;
+  }
   .topnav a {
   color: var(--Gris);
   padding: 1.2rem 1.6rem;
@@ -145,6 +149,10 @@
   }
   .topnav #myLinks {
   display: none;
+  }
+  #myLinks {
+    text-align: end !important;
+    margin-right: 6rem;
   }
   .topnav a {
   color: var(--Gris);
