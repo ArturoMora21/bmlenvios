@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Paises</title>
+</head>
+<style>
+    .pais {
+        font-family: 'Noto Sans', 'San Serif';
+        font-size: 1.5em;
+        font-weight: bold;
+    }
+    .destinos-internacionales {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    @media (max-width: 480px) {
+        .destinos-internacionales {
+            display: block;
+            font-size: 1.6em;
+        }
+    }
+
+</style>
+
+<body>
+
+   <section class="destinos-internacionales">
+       <div class="seccion1">
+        <li class="pais">Estados Unidos</li>
+        <li class="pais">Mexico</li>
+        <li class="pais">Colombia</li>
+        <li class="pais">Perú</li>
+        <li class="pais">Chile</li>
+        <li class="pais">Argentina</li>
+   </div>
+   <div class="seccion2">
+        <li class="pais">Alemania</li>
+        <li class="pais">Brasil</li>
+        <li class="pais">Costa Rica</li>
+        <li class="pais">Ecuador</li>
+        <li class="pais">El Salvador</li>
+    </div>
+   </section>
+   
+</body>
+</html>
