@@ -1,0 +1,129 @@
+@media only screen and (min-width: 1440px) {
+
+  .container__grid {
+
+  }
+
+}
+@media only screen and (max-width: 768px) {
+
+  .container__grid {
+
+  }
+
+}
+
+@media only screen and (max-width: 480px) {
+
+  .navegation {
+    display: none;
+  }
+  .logo {
+    display: none;
+  }
+  .logo__menu__mobile {
+  width: 12rem;
+  margin: 0;
+  }
+  .burger {
+  width: 4rem;
+  }
+  .topnav {
+  overflow: hidden;
+  background-color: #333;
+  position: relative;
+  }
+  .topnav #myLinks {
+  display: none;
+  }
+  #myLinks {
+    text-align: center;
+    margin: 0;
+  }
+  .topnav a {
+  color: var(--Gris);
+  padding: 1.2rem 1.6rem;
+  margin: auto;
+  text-decoration: none;
+  font-size: 1.7rem;
+  display: block;
+  }
+  .topnav a.icon {
+  display: block;
+  position: absolute;
+  right: 0rem;
+  top: 0rem;
+  max-width: 100%;
+  height: 8rem;
+  }
+  .topnav a:hover {
+  color: black;
+  }
+  .active {
+  background-color: var(--Amarillo);
+  color: white;
+  }
+  .title__bml {
+    font-size: 3rem;
+    padding-top: 7rem;
+  }
+  .subtitle__bml {
+    font-size: 2rem;
+  }
+  .text__title__bml {
+    font-size: 1.6rem;
+    margin: auto 4rem;
+  }
+  .buttons {
+    display: flex;
+    flex-direction: column;
+    margin: 0rem 2rem;
+  }
+  .button1 {
+    font-weight: 500;
+  }
+  .header__text {
+    height: 40rem;
+  }
+  .worldmap {
+    display: block;
+    text-align: center;
+  }
+  .map {
+    width: 90rem;
+  }
+  .advantages {
+    display: block;
+  }
+  .services__grid {
+    display: block;
+  }
+  .services__seccion__paragraph {
+    padding-bottom: 2rem;
+  }
+  .container__grid {
+    display: block;
+  }
+  .title__last__logistics {
+    padding-top: 1rem;
+  }
+  .container__seccion__3 h3 {
+    padding-top: 1.5rem;
+  }
+  .container__seccion__3 p {
+    padding-bottom: 1.5rem;
+  }
+  .container__seccion__3 {
+    height: 47rem;
+  }
+  .submenu {
+    display: block;
+  }
+  .nav__footer {
+    margin: 0rem 1rem !important;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0;
+  }
+
+}

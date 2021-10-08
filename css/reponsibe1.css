@@ -232,6 +232,7 @@
       line-height: 2.5rem;
     }
     .container__grid {
+      grid-template-columns: repeat(2, 50rem);
       margin: 10rem 1rem;
     }
     .title__last__logistics {
